@@ -1,92 +1,118 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Multifaceted Data Expert - SQL, Python, Power BI, Excel, HTML, CSS, JavaScript">
-    <title>Multifaceted Data Expert - Portfolio</title>
+    <meta name="description" content="Multifaceted Data Expert - SQL, Python, Power BI, Data Science, Machine Learning">
+    <title>Data Expert Portfolio - Driving Data Insights</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#about">Sobre Mí</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <section id="hero">
         <div class="hero-content">
-            <h1>Hola, Soy un Experto en Datos Multifacético</h1>
-            <p>SQL, Python, Power BI, Excel, HTML, CSS, JavaScript</p>
-            <a href="#projects" class="btn">Mis Proyectos</a>
+            <h1>Empowering Data-Driven Decisions</h1>
+            <p>I’m [Your Name], a multifaceted data expert transforming data into opportunities using advanced data analytics and machine learning.</p>
+            <a href="#about" class="btn">Learn More</a>
         </div>
     </section>
 
-    <section id="about">
-        <h2>Sobre Mí</h2>
-        <p>Soy un profesional con experiencia en múltiples áreas de la programación y análisis de datos. Mi enfoque es resolver problemas complejos utilizando herramientas como SQL, Python, Power BI, entre otras. Me apasiona convertir datos en conocimiento valioso para las empresas.</p>
+
+ <!-- Trusted Clients Section with Carousel -->
+    <section id="clients">
+        <h2>Clients Who Trusted Me</h2>
+        <p>I've worked with industry leaders, helping them unlock the true potential of their data to drive tangible results.</p>
+        
+        <!-- Slick Carousel Wrapper -->
+        <div class="clients-carousel">
+            <div class="client"><img src="https://via.placeholder.com/150" alt="Client 1"><p>Client 1</p></div>
+            <div class="client"><img src="https://via.placeholder.com/150" alt="Client 2"><p>Client 2</p></div>
+            <div class="client"><img src="https://via.placeholder.com/150" alt="Client 3"><p>Client 3</p></div>
+            <div class="client"><img src="https://via.placeholder.com/150" alt="Client 4"><p>Client 4</p></div>
+        </div>
     </section>
 
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I started my career in sales with a strong foundation in business and administration. In 2013, I transitioned into the data field, specializing in machine learning and advanced data analytics. Since then, I've accumulated expertise in data science, data engineering, and text analytics, always with an eye on artificial intelligence and a commitment to lifelong learning.</p>
+        <p>My mission is to help businesses make smarter decisions by harnessing the power of data through scalable, automated solutions that deliver measurable business impact.</p>
+    </section>
+
+    <!-- Skills Section -->
     <section id="skills">
-        <h2>Habilidades</h2>
+        <h2>Skills and Services</h2>
         <div class="skills-container">
             <div class="skill">
-                <h3>SQL</h3>
-                <p>Consultas avanzadas, optimización y análisis de bases de datos.</p>
+                <h3>Data Analysis</h3>
+                <p>Interpreting and modeling large datasets to uncover key trends and insights.</p>
             </div>
             <div class="skill">
-                <h3>Python</h3>
-                <p>Análisis de datos, automatización y machine learning.</p>
+                <h3>Data Science</h3>
+                <p>Building predictive models and machine learning solutions to automate data-driven decisions.</p>
             </div>
             <div class="skill">
-                <h3>Power BI</h3>
-                <p>Creación de informes interactivos y visualizaciones de datos.</p>
+                <h3>Data Engineering</h3>
+                <p>Designing and optimizing data architectures to handle large information flows efficiently.</p>
             </div>
             <div class="skill">
-                <h3>HTML/CSS/JS</h3>
-                <p>Desarrollo web, diseño responsive y experiencia de usuario.</p>
+                <h3>Text Analytics</h3>
+                <p>Extracting valuable insights from unstructured text data to drive deeper understanding.</p>
             </div>
         </div>
     </section>
 
-    <section id="projects">
-        <h2>Proyectos</h2>
-        <div class="project">
-            <h3>Proyecto 1: Dashboard de Ventas</h3>
-            <p>Power BI: Un dashboard interactivo que analiza las tendencias de ventas y rendimiento del equipo.</p>
-        </div>
-        <div class="project">
-            <h3>Proyecto 2: Sistema de Gestión de Datos</h3>
-            <p>SQL/Python: Un sistema que almacena y procesa datos de clientes, optimizando el rendimiento de consultas.</p>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Si te interesa colaborar o tienes algún proyecto en mente, ¡contáctame!</p>
-        <form action="https://formsubmit.co/your-email" method="POST">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
 
     <footer>
-        <p>&copy; 2024 Experto en Datos Multifacético</p>
+        <p>&copy; 2024 Data Expert - Empowering Data-Driven Insights</p>
     </footer>
 
-    <script src="script.js"></script>
+   
+     <!-- Include jQuery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!-- Include Slick Carousel JS -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+     
+     <!-- Initialize the Slick Carousel -->
+     <script>
+         $(document).ready(function(){
+             $('.clients-carousel').slick({
+                 dots: false,
+                 infinite: true,
+                 slidesToShow: 3, // Number of clients displayed at once
+                 slidesToScroll: 1,
+                 autoplay: true,
+                 autoplaySpeed: 2000,
+                 responsive: [
+                     {
+                         breakpoint: 768,
+                         settings: {
+                             slidesToShow: 2
+                         }
+                     },
+                     {
+                         breakpoint: 480,
+                         settings: {
+                             slidesToShow: 1
+                         }
+                     }
+                 ]
+             });
+         });
+     </script>
 </body>
 </html>
